@@ -3,7 +3,7 @@ services:
   golang:
     build:
       context: .
-      dockerfile: Dockerfile.dev
+      dockerfile: build/Dockerfile.dev
     environment:
         - DB_HOST=db
         - DB_PORT=3306
